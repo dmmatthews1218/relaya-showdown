@@ -5627,4 +5627,18 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 		rating: 3,
 		num: -3,
 	},
+
+    // Custom Pokémon Club Abilities
+    fortunestotem: {
+		onAnyModifyAccuracyPriority: -1,
+		onAnyModifyAccuracy(accuracy, target, source) {
+			if (source.isAlly(this.effectState.target) && typeof accuracy === 'number') {
+				return this.chainModify([4506, 4096]);
+			}
+		},
+		flags: {},
+		name: "Fortune's Totem",
+		rating: 2,
+		num: 9001,
+	},
 };

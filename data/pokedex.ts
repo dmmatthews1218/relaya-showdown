@@ -2,7 +2,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 	bulbasaur: {
 		num: 1,
 		name: "Bulbasaur",
-		types: ["Ice", "Poison"],
+		types: ["Grass", "Poison"],
 		genderRatio: { M: 0.875, F: 0.125 },
 		baseStats: { hp: 45, atk: 49, def: 49, spa: 65, spd: 65, spe: 45 },
 		abilities: { 0: "Overgrow", H: "Chlorophyll" },
@@ -19844,4 +19844,18 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		eggGroups: ["Undiscovered"],
 		gen: 5,
 	},
+    // START OF CUSTOM MONS
+    fluffuff: {
+        num: 9002,
+        name: "Fluffuff",
+        types: ["Fairy", "Flying"],
+        gender: "N",
+        baseStats: { hp: 100, atk: 100, def: 100, spa: 100, spd: 100, spe: 100 },
+		abilities: { 0: "Fortune's Totem" },
+		heightm: 0.3,
+		weightkg: 6.5,
+		color: "Yellow",
+		tags: ["Mythical"],
+		eggGroups: ["Undiscovered"],
+    },
 };

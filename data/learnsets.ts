@@ -99980,4 +99980,33 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			{generation: 5, level: 47, moves: ["darkpulse", "flamethrower", "hyperbeam", "icebeam"]},
 		],
 	},
+    // Custom Pokémon Club Mons
+    fluffuff: {
+        learnset:{
+            playrough:["1L1"],
+            charm:["1L1"],
+            bounce:["1L1"],
+            airslash:["1L1"],
+            hurricane:["1L1"],
+            dazzlinggleam:["1L1"],
+            moonblast:["1L1"],
+            cottonguard:["1L1"],
+            cottonspore:["1L1"],
+            bite:["1L1"],
+            headbutt:["1L1"],
+            bodyslam:["1L1"],
+            rototiller:["1L1"],
+            earthpower:["1L1"],
+            energyball:["1L1"],
+            brine:["1L1"],
+            lifedew:["1L1"],
+            waterpledge:["1L1"],
+            splash:["1L1"],
+            disarmingvoice:["1L1"],
+            protect:["1L1"],
+            detect:["1L1"],
+            growl:["1L1"],
+            tailwhip:["1L1"],
+        }
+    }
 };
