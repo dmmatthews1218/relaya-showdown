@@ -6050,6 +6050,76 @@ export const FormatsData: import('../sim/dex-species').SpeciesFormatsDataTable =
 	},
     // Pokémon Club Custom Mons
     fluffuff: {
-        tier: "OU",
-    },
+    tier: "OU",
+},
+pyroble: {
+    tier: "OU",
+},
+crob: {
+    tier: "OU",
+},
+bord: {
+    tier: "OU",
+},
+spirex: {
+    tier: "OU",
+},
+hollowbloom: {
+    tier: "OU",
+},
+planoteria: {
+    tier: "OU",
+},
+klefree: {
+    tier: "OU",
+},
+klefine: {
+    tier: "OU",
+},
+giitchedgiri: {
+    tier: "OU",
+},
+polteageistrelaya: {
+    tier: "OU",
+},
+requorvid: {
+    tier: "OU",
+},
+photurix: {
+    tier: "OU",
+},
+porcupyre: {
+    tier: "OU",
+},
+snatchet: {
+    tier: "OU",
+},
+honq: {
+    tier: "OU",
+},
+pilushi: {
+    tier: "OU",
+},
+kittune: {
+    tier: "OU",
+},
+nikosluj: {
+    tier: "OU",
+},
+nunadol: {
+    tier: "OU",
+},
+helpip: {
+    tier: "OU",
+},
+bookwyrm: {
+    tier: "OU",
+},
+felectric: {
+    tier: "OU",
+},
+salamity: {
+    tier: "OU",
+},
+
 };
