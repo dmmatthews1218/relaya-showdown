@@ -100007,6 +100007,6 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
             detect:["1L1"],
             growl:["1L1"],
             tailwhip:["1L1"],
-        }
-    }
+        },
+    },
 };
