@@ -6121,5 +6121,7 @@ felectric: {
 salamity: {
     tier: "OU",
 },
-
+rayflector: {
+    tier: "OU",
+},
 };

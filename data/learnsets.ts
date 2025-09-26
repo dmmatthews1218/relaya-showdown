@@ -100152,6 +100152,8 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 },
 pyroble: {
 	learnset: {
+        strengthofthewolf: ["9L1"],
+        powerofthepack: ["9L1"],
 		aerialace: ["9L1"],
 		aquajet: ["9L1"],
 		astonish: ["9L1"],

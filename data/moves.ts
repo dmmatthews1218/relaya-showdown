@@ -22110,4 +22110,67 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 		type: "Fire",
 		contestType: "Beautiful",
 	},
+    // START OF NCSU CUSTOM MOVES
+    strengthofthewolf: {
+        num: 9000,
+		accuracy: true,
+		basePower: 0,
+		category: "Status",
+		isNonstandard: "Past",
+		name: "Strength of the Wolf",
+		pp: 1,
+		priority: 0,
+		flags: { charge: 1, nonsky: 1, metronome: 1, nosleeptalk: 1, failinstruct: 1 },
+		onTryMove(attacker, defender, move) {
+			if (attacker.removeVolatile(move.id)) {
+				return;
+			}
+			this.add('-prepare', attacker, move.name);
+			if (!this.runEvent('ChargeMove', attacker, defender, move)) {
+				return;
+			}
+			attacker.addVolatile('twoturnmove', defender);
+			return null;
+		},
+		boosts: {
+			atk: 2,
+			def: 2,
+			spa: 2,
+			spd: 2,
+			spe: 2,
+		},
+		secondary: null,
+		target: "self",
+		type: "Fire",
+		zMove: { boost: { atk: 1, def: 1, spa: 1, spd: 1, spe: 1 } },
+		contestType: "Beautiful",
+    },
+    powerofthepack: {
+		num: 226,
+		accuracy: true,
+		basePower: 0,
+		category: "Status",
+		name: "Power of the Pack",
+		pp: 1,
+		priority: -7,
+		flags: { metronome: 1 },
+		onHit(target) {
+			if (!this.canSwitch(target.side) || target.volatiles['commanded']) {
+				this.attrLastMove('[still]');
+				this.add('-fail', target);
+				return this.NOT_FAIL;
+			}
+		},
+		self: {
+			onHit(source) {
+				source.skipBeforeSwitchOutEventFlag = true;
+			},
+		},
+		selfSwitch: 'copyvolatile',
+		secondary: null,
+		target: "self",
+		type: "Normal",
+		zMove: { effect: 'clearnegativeboost' },
+		contestType: "Cute",
+	},
 };
