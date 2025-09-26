@@ -22116,7 +22116,6 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 		accuracy: true,
 		basePower: 0,
 		category: "Status",
-		isNonstandard: "Past",
 		name: "Strength of the Wolf",
 		pp: 1,
         noPPBoosts: true,
