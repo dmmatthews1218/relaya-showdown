@@ -20145,6 +20145,16 @@ rayflector: {
     tags: [],
     eggGroups: ["Water 2","Mineral"],
 },
-
-
+walreinrelaya: {
+    num: 365,
+    name: "Walrein-Relaya",
+    baseSpecies: "Walrein",
+    forme: "Relaya",
+    types: ["Poison", "Dragon"], // guessing from flavor; you can tweak!
+    genderRatio: { M: 0.5, F: 0.5 },
+    weightkg: 233.2,
+    baseStats: { hp: 130, atk: 70, def: 110, spa: 120, spd: 100, spe: 30 },
+    abilities: {0: "MicroScales", 1: "Poison Power"},
+    eggGroups: ["Water 1", "Field"], // default Walrein, unless you want to change
+},
 };

@@ -6124,4 +6124,7 @@ salamity: {
 rayflector: {
     tier: "OU",
 },
+walreinrelaya: {
+    tier: "OU",
+}
 };
