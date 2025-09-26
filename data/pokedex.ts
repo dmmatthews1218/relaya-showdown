@@ -19979,6 +19979,8 @@ giitchedgiri: {
 polteageistrelaya: {
     num: 9012,
     name: "Polteageist-Relaya",
+    baseSpecies: "Polteageist",
+    forme: "Relaya",
     types: ["Ghost", "Electric"],
     gender: "N",
     baseStats: { hp: 60, atk: 99, def: 65, spa: 100, spd: 70, spe: 114 },
@@ -20150,11 +20152,11 @@ walreinrelaya: {
     name: "Walrein-Relaya",
     baseSpecies: "Walrein",
     forme: "Relaya",
-    types: ["Poison", "Dragon"], // guessing from flavor; you can tweak!
+    types: ["Poison", "Dragon"],
     genderRatio: { M: 0.5, F: 0.5 },
     weightkg: 233.2,
     baseStats: { hp: 130, atk: 70, def: 110, spa: 120, spd: 100, spe: 30 },
     abilities: {0: "MicroScales", 1: "Poison Power"},
-    eggGroups: ["Water 1", "Field"], // default Walrein, unless you want to change
+    eggGroups: ["Water 1", "Field"],
 },
 };
