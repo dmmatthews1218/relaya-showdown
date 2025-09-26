@@ -2281,4 +2281,8 @@ export const AbilitiesText: { [id: IDEntry]: AbilityText } = {
 
 		activate: "  [POKEMON] extends [MOVE] by 2 turns!",
 	},
+    fortunestotem: {
+        name: "Fortune's Totem",
+        shortDesc: "This Pokemon and its allies' moves have their accuracy multiplied by 1.1.",
+    }
 };
