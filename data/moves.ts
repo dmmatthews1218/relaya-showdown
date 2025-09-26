@@ -22119,6 +22119,7 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 		isNonstandard: "Past",
 		name: "Strength of the Wolf",
 		pp: 1,
+        noPPBoosts: true,
 		priority: 0,
 		flags: { charge: 1, nonsky: 1, metronome: 1, nosleeptalk: 1, failinstruct: 1 },
 		onTryMove(attacker, defender, move) {
@@ -22146,14 +22147,15 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 		contestType: "Beautiful",
     },
     powerofthepack: {
-		num: 226,
+		num: 9001,
 		accuracy: true,
 		basePower: 0,
 		category: "Status",
 		name: "Power of the Pack",
 		pp: 1,
+        noPPBoosts: true,
 		priority: -7,
-		flags: { metronome: 1 },
+		flags: { },
 		onHit(target) {
 			if (!this.canSwitch(target.side) || target.volatiles['commanded']) {
 				this.attrLastMove('[still]');
