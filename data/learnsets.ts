@@ -100152,8 +100152,8 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 },
 pyroble: {
 	learnset: {
-        strengthofthewolf: ["9L1"],
         powerofthepack: ["9L1"],
+        strengthofthewolf: ["9L1"],
 		aerialace: ["9L1"],
 		aquajet: ["9L1"],
 		astonish: ["9L1"],
@@ -100223,7 +100223,6 @@ pyroble: {
 		agility: ["9L1"],
 		assist: ["9L1"],
 		babydolleyes: ["9L1"],
-		batonpass: ["9L1"],
 		bellydrum: ["9L1"],
 		blazekick: ["9L1"],
 		bodyslam: ["9L1"],
